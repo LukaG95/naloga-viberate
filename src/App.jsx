@@ -9,7 +9,7 @@ const App = () => {
       <div className="app">
         <Header />
         <Routes>
-
+          <Route path="/" element={<ArtistDetailPage />} />
           <Route path="/:artist_uuid" element={<ArtistDetailPage />} />
         </Routes>
       </div>
